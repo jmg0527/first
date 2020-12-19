@@ -13,3 +13,9 @@ power = 2 ** 10 # 1024
 reminder = 15 % 4 # 3
 
 print(multiply, divide, power, reminder)
+
+text = '2015' + '1991'
+number = 2015 + 1991
+
+print(text)
+print(number)
