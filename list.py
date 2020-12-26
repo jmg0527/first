@@ -8,3 +8,9 @@ print(list1[0])
 print(list1[1])
 print(list1[2])
 
+list1[0] = '바위'
+print(list1[0])
+print(list1)
+
+print(list1[-1])
+print(list1[-3])
