@@ -1,7 +1,14 @@
-identity = '지구인'
-number_of_legs = 4
-print('안녕! 나는', identity, '이야 나는 다리가', number_of_legs, '개 있어.')
+subway = [10, 20, 30]
+print(subway)
 
-identity = '한국인'
-number_of_legs = 2
-print('안녕! 나는', identity, '이야 나는 다리가', number_of_legs, '개 있어.')
+subway = ["나연", "사나", "쯔위"]
+print(subway)
+
+print(subway.index("쯔위"))
+
+subway.insert(2, "미나")
+print(subway)
+
+print(subway.pop())
+print(subway)
+
